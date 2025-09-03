@@ -1,5 +1,5 @@
-//@date: 09/01/2025
 //@author: Isaac Avila-Branson
+//@date: 09/01/2025
 //@purpose: Calculate the distance travelled
 
 #include <iostream>
