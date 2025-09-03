@@ -17,10 +17,12 @@ int main() {
     //Create floats to handle potential decimals for updated temperatures
     float new_temp_nyc, new_temp_denver, new_temp_phoenix;
 
-    new_temp_nyc = temperature_nyc * 0.2;
-    new_temp_denver = temperature_denver * 0.2;
-    new_temp_phoenix = temperature_phoenix * 0.2;
+    // assign and calculate new average temperatures to the floats
+    new_temp_nyc = (temperature_nyc * 0.02) + temperature_nyc;
+    new_temp_denver = (temperature_denver * 0.02) + temperature_denver;
+    new_temp_phoenix = (temperature_phoenix * 0.02) + temperature_phoenix;
 
+    //print the values with text and new lines to neatly print to console
     std::cout << "The new average temperature in NYC is: " << new_temp_nyc
     << '\n' << "The new average temperature in Denver is: " << new_temp_denver 
     << '\n' << "The new average temperature in Phoenix is: " << new_temp_phoenix
