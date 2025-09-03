@@ -15,7 +15,7 @@ int main() {
     temperature_phoenix = 106;
 
     //Create floats to handle potential decimals for updated temperatures
-    float new_temperature_nyc, new_temperature_denver, new_temperature_phoenix;
+    float new_temp_nyc, new_temp_denver, new_temp_phoenix;
 
     new_temp_nyc = temperature_nyc * 0.2;
     new_temp_denver = temperature_denver * 0.2;
