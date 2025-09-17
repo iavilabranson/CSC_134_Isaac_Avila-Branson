@@ -7,9 +7,9 @@
 using namespace std;
 
 int main() {
-    double user_temperature; //create float for user input
-
-    while(user_temperature != 212.34) {
+    float user_temperature = 0; //create double for user input
+    float target_temp = 212.34;
+    while(user_temperature != target_temp) {
         cout << "Please enter a temperature" << endl; //prompt user for temperature
         cin >> user_temperature; //take user temperature
     }
