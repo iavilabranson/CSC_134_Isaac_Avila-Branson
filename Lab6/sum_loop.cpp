@@ -6,14 +6,15 @@
 using namespace std;
 
 int main() {   
-    int sumOp, adder; //create integers to store values
+    int sumOp, adder, index; //create integers to store values
     sumOp = 0;
     adder = 10;
-    for (sumOp; sumOp < 50; sumOp++) {
-        cout << "Value of sumOp: " << sumOp << endl;
-        adder = sumOp + adder;
-    }
 
+    for (index = 0; index < 50; index++) {
+        sumOp = sumOp + adder;
+        cout << "Value of sum: " << sumOp << endl;
+    }
+    return 0;
 
 
 }
