@@ -8,8 +8,6 @@ using namespace std;
 
 int main() { 
     double starting_value = 250000;
-    double current_value;
-    double percentage_increase = 0.06; //declare percentage variable for easier reading
     cout << setprecision(12); //attempting to correct error with printing floats to console
     for (int i = 1; i <= 5; i++) {
         starting_value = starting_value  * 1.06 ;

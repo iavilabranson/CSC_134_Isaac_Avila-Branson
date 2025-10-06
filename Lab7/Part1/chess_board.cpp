@@ -10,16 +10,15 @@ int main() {
     cout << "Please enter the side length: " << endl; //prompt user for input
     cin >> board_size; //store user input
     cout << "\n"; //create space for square
-
     for (row = 0; row < board_size; row++) { //starts new row
-        for (column = 0; column < board_size; column++) { //columns for each row
-            if ((row + column) % 2 == 0) // alternate pattern
+        for (column = 0; (column != board_size); column++) { //ensure column prints * for number of side length
+            if ((row + column) % 2 == 0) { // alternate pattern
                 cout << "* ";
-            else
+            else {
                 cout << "  ";
+            }
         }
-        cout << "\n"; //new line after each row
+        cout << "\n"; //print new line for formatting
     }
-
-    return 0;
+    }
 }
