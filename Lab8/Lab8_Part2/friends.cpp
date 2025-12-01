@@ -1,4 +1,4 @@
-//@author: Isaac Avila-Branson
+    //@author: Isaac Avila-Branson
 //@date: 10/10/2025
 //@purpose: Create a program to take input from a file and print it to console
 
