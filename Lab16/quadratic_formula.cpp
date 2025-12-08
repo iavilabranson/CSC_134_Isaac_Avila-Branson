@@ -21,11 +21,10 @@ int main() {
    
    //check if x_add is the positive result, if not print x_subtract
     if (x_add > 0) {
-        cout << "The reuslt is: " << x_add << endl;
+        cout << "The reuslt is: " << x_add << " meters" << endl;
     }
     else {
-        cout << "The Result is: " << x_subtract << endl;
+        cout << "The Result is: " << x_subtract << " meters" << endl;
     }
 }
 
-//65.2418s
